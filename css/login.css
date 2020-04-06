@@ -1,0 +1,206 @@
+/**
+*登录页样式
+*2013.02.15
+*/
+.connections a, .input input, .bar a, .bar button,.container button{
+	background: url(../images/loginMix.png) -9999px -9999px no-repeat;
+}
+.logo{
+	width: 150px;
+	height: 50px;
+	overflow: hidden;
+	display: block;
+	margin: 16px auto 0;
+}
+.content{
+	width: 778px;
+	height:430px;
+	overflow: hidden;
+	margin:35px auto 0;
+	padding-bottom: 78px;
+	background:url(../images/loginBack.png) no-repeat;
+}
+.min-content{
+	margin-top:242px;
+	overflow: hidden;
+	padding-left: 59px;
+}
+.cooperator{
+	width:290px;
+	overflow: hidden; 
+	float: left;
+	margin-right: 86px;
+}
+.connections a{
+	width: 134px;
+	height: 34px;
+	float: left;
+	margin: 15px 11px 0 0;
+	display: block;
+}
+.connections a.weibo{
+	background-position: 0 0;
+}
+.connections a.renren{
+	background-position: 0 -36px;
+}
+.connections a.tqq{
+	background-position: 0 -72px;
+}
+.connections a.douban{
+	background-position: 0 -108px;
+}
+.connections a.qqzone{
+	background-position: 0 -142px;
+}
+.cooperator p{
+	color: #999;
+	margin-top: 10px;
+}
+.account{
+	width: 342px;
+	overflow: hidden;
+	float: left;
+}
+.input{
+	width:100%;
+	height: 66px;
+	overflow: hidden;
+	position: relative;
+}
+.input input{
+	height: 24px;
+	line-height: 24px;
+	line-height: 26px\0;
+	overflow: hidden;
+	display: block;
+	width: 185px;
+	border: none;
+	font-size: 12px;
+	color: #999;
+	padding: 4px 0 4px 52px;
+}
+.input input.email{
+	background-position: 0 -177px;
+}
+.focus-hover input.email{
+	background-position: 0 -209px;
+}
+.input input.password{
+	background-position: 0 -241px;
+}
+.focus-hover input.password{
+	background-position: 0 -273px;
+}
+.input label{
+	width: 110px;
+	height:18px;
+	overflow: hidden;
+	position: absolute;
+	left: 52px;
+	top:6px;
+	top:8px\0;
+	*top:8px;
+	color: #aaa;
+}
+.valid-under .label{
+	color: #999;
+}
+.forget{
+	width: 50px;
+	height: 21px;
+	line-height: 21px;
+	overflow: hidden;
+	position: absolute;
+	right: 43px;
+	top:4px;
+	
+}
+.forget a{
+	color: #20b587;
+}
+.forget a:hover{
+	color: #20b587;
+}
+.bar{
+	height:27px;
+	overflow: hidden;
+	color: #999;
+	position: relative;
+}
+.bar a{
+	width:13px;
+	height: 13px;
+	display: inline-block;
+	overflow: hidden;
+	background-position:-181px -32px;
+	position: absolute;
+	left:0 ;
+	top:8px;
+}
+.bar a.checked{
+	background-position:-200px -32px; 
+}
+.bar label{
+	width: 58px;
+	padding:0 20px 0 22px;
+	height: 27px;
+	overflow: hidden;
+	line-height: 27px;
+	line-height: 29px\0;
+	display:block;
+	float: left;
+}
+.bar button,.container button{
+	height: 27px;
+	width: 58px;
+	overflow: hidden;
+	background-position: -179px 0;
+	border: none;
+	text-indent: -9999px;
+	cursor: pointer;
+	float: left;
+	display: block;
+}
+
+/****忘记密码页 样式***/
+.forget-content{
+	background-color: #fff;
+	padding:0 59px;
+	width:658px;
+	margin: 189px auto 0;
+	height:220px;
+	overflow: hidden;
+}
+.container{
+	width:320px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.container h3{
+	font-family: "Microsoft YaHei";
+	font-size: 18px;
+	font-weight: normal;
+	padding-bottom: 20px;
+}
+.container button{
+	background-position:-179px -53px;
+}
+.container .under{
+	width:270px;
+	margin-top: 15px;
+	overflow: hidden;
+	height: 42px;
+}
+.login-input{
+	position: absolute;
+	left: 0;
+	top: 8px;
+	width: 15px;
+	height: 14px;
+	display: block;
+
+}
+.loading-container .ks-ext-close{
+	left: 755px;
+}

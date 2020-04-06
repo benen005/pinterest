@@ -1,0 +1,821 @@
+/*
+*发布页
+*/
+body {
+	background-color: #f1eff0;
+}
+.content {
+	width: 921px;
+	overflow: hidden;
+	margin: 20px auto 0;
+	background-color: #fff;
+	color: #333;
+}
+.content a{
+	color: #333;
+}
+.content img{
+    vertical-align: top;
+}
+.nav{
+	overflow: hidden;
+	margin: 20px 0 0 15px;
+}
+.nav ul{
+	overflow: hidden;
+	margin-left: 306px;
+
+}
+.nav ul li{
+	margin-right: 10px;
+	float:left;
+	height: 25px;
+	overflow: hidden;
+}
+.nav ul li a{
+	padding: 5px 8px 4px 8px;
+	background-color: #efeeee;
+	color: #333;
+	text-decoration: none;
+    line-height: 16px;
+    height: 16px;
+    display: inline-block;
+    overflow: hidden;
+}
+.nav ul li a.selected{
+	background-color: #20b687;
+	color: #fff;
+}
+.release-container{
+	padding-left: 90px;
+	overflow: hidden;
+	margin-top: 40px;
+	padding-bottom: 240px;
+}
+.release-container .hd{
+	font-size: 22px;
+	font-family: "Microsoft Yahei";
+	height: 26px;
+	line-height: 26px;
+	overflow: hidden;
+	border-bottom: 1px solid #cccccc;
+	width: 750px;
+	padding-bottom: 16px;
+}
+.release-hd{
+	overflow: hidden;
+	margin-top: 19px;
+	height: 25px;
+}
+.release-hd a{
+	float: left;
+	display: block;
+	text-align: center;
+	background-color: #efeeee;
+	width: 67px;
+	padding: 4px 0 5px 0;
+	height: 16px;
+	line-height: 16px;
+	overflow: hidden;
+	margin-right: 12px;
+}
+.release-hd a:hover{
+	text-decoration: none;
+}
+.release-hd a.selected{
+	background-color: #21ba8a;
+	color: #fff;
+}
+.release-container .title{
+	margin-top: 12px;
+	overflow: hidden;
+}
+.release-container .title p{
+	font-size: 14px;
+	color: #999;
+    width: 750px;
+}
+.release-container .title p strong{
+    color: #333;
+}
+.title-box{
+	margin-top: 6px;
+	overflow: hidden;
+}
+.title-box input{
+	float: left;
+	width: 610px;
+	height: 16px;
+	line-height: 16px;
+	padding: 8px 3px;
+	border: 1px solid #deddde;
+	margin-right: 8px;
+}
+.clearurl,.findphoto,.findvedio{
+	width: 59px;
+	height: 27px;
+	overflow: hidden;
+	display: block;
+	float: left;
+	margin-right: 9px;
+	background: url(../images/clear.png) no-repeat;
+}
+.findvedio{
+    background: url(../images/findvedio.png) no-repeat;
+}
+.findphoto{
+	background: url(../images/find.png) no-repeat;
+}
+.wanted-container .close a,.wanted-button,.wanted-clear,.ks-ext-close{
+    background: url(../images/wanted.png) -9999px -9999px no-repeat;
+}
+.wanted-container{
+    width: 740px;
+    margin-top: 10px;
+    overflow: hidden;;
+}
+.wanted-container .close{
+    height: 13px;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+.wanted-container .pic{
+    width: 164px;
+    height: 234px;
+    overflow: hidden;
+    padding:8px;
+    border:1px solid #e3e3e3;
+    background-color: #fff;
+    float: left;
+    text-align: center;
+    margin-right: 10px;
+}
+.wanted-container .pic img{
+    vertical-align: middle;
+}
+.wanted-container .pic span{
+    display: table-cell;
+    width: 164px;
+    height: 234px;
+    vertical-align: middle;
+    *font-size: 204px;
+}
+.image-box{
+    width: 268px;
+    overflow: hidden;
+    float: left;
+    margin-right: 22px;
+}
+.image-item{
+    width: 250px;
+    overflow: hidden;
+    padding:8px;
+    border: 1px solid #deddde;
+}
+.image-thuml{
+
+}
+.multicontainer{
+    float: left;
+    width: 450px;
+    overflow: hidden;
+    color: #333;
+}
+.multi-item{
+    padding-bottom: 8px;
+    position: relative;
+}
+.travel-item{
+    float: left;
+    width: 254px;
+    overflow: hidden;
+
+    line-height: 25px;
+}
+.travel-right{
+    width: 190px;
+    float: left;
+    overflow: hidden;
+    height: 25px;
+    line-height: 25px;
+}
+.travel{
+    border: 1px solid #e3e3e3;
+    height: 23px;
+    overflow: hidden;
+    padding: 3px 30px 3px 7px;
+    background-color: #fff;
+    color: #999;
+    margin-left: 2px;
+}
+.wanted-container input{
+    margin-right: 5px;
+}
+.shoot-time .travel{
+    padding: 3px 10px 3px 7px;
+}
+.multi-item em{
+    color: #999;
+}
+.multi-item textarea{
+    width: 420px;
+    height: 47px;
+    overflow: hidden;
+    margin-top: 5px;
+    border: 1px solid #e3e3e3;
+    padding: 4px 5px;
+}
+.multi-item label{
+    position: absolute;
+    left:8px;
+    top:25px;
+    display: inline-block;
+    color: #999;
+}
+.usual{
+    padding-bottom: 0;
+}
+.usual-span{
+    width: 60px;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.usual-tag{
+    width: 373px;
+    margin-left: 57px;
+    overflow: hidden;
+    height: 48px;
+}
+.usual-tag li{ 
+    padding:0 0 5px 7px;
+    float: left;
+    overflow: hidden;
+    
+}
+
+.usual-tag li a{
+    display: block;
+    padding: 0 4px;
+    border: 1px solid #20b587;
+    border-radius: 4px;
+    height: 16px;
+    line-height: 15px;
+    line-height: 18px\0;
+    *line-height: 18px;
+    _line-height:15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    color: #333;
+    word-wrap: break-word;
+}
+.usual-tag li a.selected{
+    border: 1px solid #e3e3e3;
+    color: #999;
+}
+.usual-tag li a:hover{
+    text-decoration: none;
+}
+.wanted-button,.wanted-clear,.edit-button{
+    width: 55px;
+    height:27px;
+    overflow: hidden;
+    background-position: 0 0;
+    cursor: pointer;
+    display: inline-block;
+    border: none;
+}
+.edit-button{
+    background: url(../images/edit.gif) no-repeat;
+    width: 59px;
+}
+.wanted-button{
+    background: url(../images/release.png) no-repeat;
+    width: 59px;
+}
+.wanted-clear{
+    width: 57px;
+    background-position: 0 -27px;
+    margin:0 10px 0 10px;
+}
+.wanted-container .msg{
+    color: #999;
+    font-size: 14px;
+    font-family: 'Microsoft YaHei';
+    height: 27px;
+    overflow: hidden;
+    line-height: 27px;
+}
+.wanted-container .msg em{
+    color: #21ba8a;
+}
+.wanted-container .msg em.error{
+    color: red;
+}
+
+.valid-under {
+    display: block;
+    margin-top: 5px;
+    height: 24px;
+}
+.valid-under .estate {
+    float: left;
+    padding: 2px 10px 2px 30px;
+    background: url(../images/msg_bg.png) -9999px -9999px no-repeat;
+    background-position: -100px -100px;
+    border-width: 1px;
+    border-style: solid;
+}
+.valid-under .error {
+    background-position: 3px 2px;
+    border-color: #EDE3DB;
+    background-color: #F7EDE4;
+}
+.valid-under .label {
+    display: block;
+    line-height: 18px;
+}
+.valid-under .label {
+    color: #999;
+}
+.multiMsg .valid-under{
+    height: 24px;
+}
+.multiMsg{
+    display: none;
+}
+.multi-item select{
+    border: 1px solid #e3e3e3;
+    height: 21px;
+    overflow: hidden;
+    background-color: #fff;
+    color: #999;
+    margin-left: 2px;
+    line-height: 21px;
+    width: 50px;
+}
+.multi-item input.travelplace{
+    border: 1px solid #e3e3e3;
+    height: 16px;
+    line-height: 16px;
+    padding: 3px 3px 4px 3px;
+    overflow: hidden;
+    width: 104px;
+}
+.scrollable{
+    width: 268px;
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 14px;
+}
+.scrollable .prev{
+    width: 0;
+    height: 0;
+    border-width: 7px 7px;
+    border-style: solid;
+    border-color: #fff #1fb486 #fff #fff;
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    left: -7px;
+    top: 16px;
+    cursor: pointer;
+}
+.scrollable .prev.disable{
+    border-color: #fff #cfcbcf #fff #fff;
+    cursor: text;
+}
+.scrollable .next{
+    border-color:#fff #fff #fff #1fb486;
+    width: 0;
+    height: 0;
+    border-width: 6px 6px;
+    border-style:solid;
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    right: -6px;
+    top: 16px;
+    cursor: pointer;
+}
+.scrollable .next.disable{
+    border-color: #fff #fff #fff #cfcbcf;
+    cursor: text;
+}
+.scroller{
+    width: 235px;
+    margin:0 0 0 18px;
+    height: 50px;
+    overflow: hidden;
+}
+.scroller li{
+    width: 46px;
+    height: 46px;
+    overflow: hidden;
+    padding: 1px;
+    background-color: #fff;
+    border: 1px solid #EDE3DB;
+    margin-right: 10px;
+    float:left;
+}
+.orgin{
+    margin-top: 16px;
+    color: #999;
+    overflow: hidden;
+}
+.orgin a{
+    color: #999;
+}
+.upload-container{
+    width: 750px;
+    overflow: hidden;
+}
+.update-box{
+    width: 464px;
+    overflow: hidden;
+    margin:20px auto 0;
+}
+.release-line{
+    margin-top: 10px;
+    overflow: hidden;
+}
+.local-lf{
+    width: 216px;
+    border: 1px solid #deddde;
+    float: left;
+    margin-right: 20px;
+    padding-bottom: 20px;
+}
+.local-item{
+    margin-top: 10px;
+    overflow: hidden;
+    height: 50px;
+}
+.local-item .image-item{
+    width: 46px;
+    height: 46px;
+    overflow: hidden;
+    padding: 1px;
+    background-color: #fff;
+    border: 1px solid #EDE3DB;
+    margin-right: 10px;
+    float: left;
+    display: inline;
+    margin-left: 10px;
+    margin-right: 13px;
+}
+.local-txt{
+    width: 95px;
+    float: left;
+    line-height: 16px;
+    color: #999;
+    padding: 8px 0;
+    overflow: hidden;
+    height: 42px;
+}
+.local-size{
+    width: 45px;
+    float: left;
+    line-height: 16px;
+    padding: 8px 0;
+    overflow: hidden;
+    color: #999;
+    text-align: center;
+}
+.local-button{
+    text-align: center;
+    color: #999;
+    line-height: 21px;
+    margin-top: 10px;
+}
+.local-button a{
+    width: 124px;
+    height: 38px;
+    overflow: hidden;
+    display: block;
+    margin: 20px auto 0;
+}
+.release-line .wanted-button{
+    background: url(../images/bacthUpload.png) no-repeat;
+}
+.multi-item select.myphoto{
+    width: 432px;
+    height: 27px;
+    overflow: hidden;
+}
+.multi-item select.mylife{
+    width: 120px;
+     height: 25px;
+    overflow: hidden;
+}
+.title {
+    margin-top: 13px;
+    overflow: hidden;
+}
+.title-item{
+    float: left;
+    width: 230px;
+    overflow: hidden;
+}
+.title-item select{
+    border: 1px solid #deddde;
+    height: 30px;
+    overflow: hidden;
+    width: 64px;
+}
+.title .name {
+    width: 60px;
+    height: 16px;
+    line-height: 16px;
+    padding: 8px 0;
+    overflow: hidden;
+    float: left;
+}
+.title .input {
+    width: 584px;
+    float: left;
+    overflow: hidden;
+}
+
+.title input{
+    border: 1px solid #deddde;
+    height: 16px;
+    overflow: hidden;
+    padding: 7px 4px;
+    width: 574px;
+}
+.title .placeInput input{
+    width: 150px;
+    float: left;
+    overflow: hidden;
+}
+.title .limit {
+    width: 64px;
+    height: 16px;
+    padding: 8px 0;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    color: #999;
+    font-family: 'Microsoft Yahei';
+}
+.msg {
+    color: #999;
+    font-family: 'Microsoft Yahei';
+    font-size: 14px;
+}
+.msg em.error {
+    color: red;
+}
+.msg em {
+    color: #21ba8a;
+}
+.error {
+    background-position: 0 -143px;
+}
+.t-textarea {
+    width: 749px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.a-content .t-textarea textarea {
+    width: 743px;
+    height: 124px;
+    padding: 2px;
+    overflow: hidden;
+    border: 1px solid #deddde;
+}
+.a-content {
+    margin-top: 5px;
+    width: 748px;
+}
+.a-content .name a {
+    background-color: #c6e5db;
+    color: #fff;
+    line-height: 16px;
+    padding: 2px 4px;
+    overflow: hidden;
+    display: inline-block;
+    float: right;
+}
+.a-content .name a:hover{
+    background-color: #21ba8a;
+}
+.adhesive {
+    width: 466px;
+    overflow: hidden;
+    position: absolute;
+    left: 48px;
+    top: 55px;
+    z-index: 99999;
+    text-align: left;
+}
+.adhesive s {
+    width: 13px;
+    height: 7px;
+    overflow: hidden;
+    display: block;
+    background: url(http://test.taobao.com/fhy/lyz/images/global.png) -23px 0 no-repeat;
+    position: relative;
+    left: 426px;
+    top: 1px;
+}
+.adhesive-box {
+    border: 1px solid #deddde;
+    background-color: #fff;
+    width: 462px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+.adhesive-item {
+    margin-left: 5px;
+}
+.adhesive-item label {
+    line-height: 16px;
+    height: 16px;
+    color: #333;
+}
+.adhesive-box input {
+    width: 352px;
+    height: 16px;
+    line-height: 16px;
+    padding: 8px 4px;
+    overflow: hidden;
+    border: 1px solid #deddde;
+}
+.adhesive-box p {
+    background-color: #f5e7cc;
+    color: #999;
+    height: 16px;
+    overflow: hidden;
+    line-height: 16px;
+    width: 362px;
+    margin-left: 89px;
+    margin-top: 5px;
+}
+.adhesive-button {
+    margin: 5px 0 0 94px;
+}
+.save, .cancle{
+    background: url(../images/additem.png) -9999px -9999px no-repeat;
+}
+.save {
+    width: 60px;
+    height: 27px;
+    line-height: 27px;
+    border: none;
+    overflow: hidden;
+    display: block;
+    float: left;
+    margin-right: 10px;
+    color: #fff;
+    background-position: 0 0;
+    cursor: pointer;
+}
+.cancle {
+    width: 60px;
+    height: 27px;
+    line-height: 27px;
+    border: none;
+    display: block;
+    float: left;
+    background-position: 0 -28px;
+    cursor: pointer;
+}
+.additem-line{
+    margin-top: 5px;
+}
+.additem-line .multi-item textarea{
+    width: 738px;
+}
+.additem-line .usual-tag{
+    width: 690px;
+}
+.additem-line .ft-button{
+    float: left;
+}
+.frontCover{
+    width: 100px;
+    height: 21px;
+    overflow: hidden;
+    position: absolute;
+    right: 20px;
+    line-height: 21px;
+    top: 0;
+}
+.orgin .singlePic{
+    width: 124px;
+    height: 38px;
+    display: block;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.perferBatch{
+    text-align: center;
+}
+.perferBatch a{
+    padding: 0 2px;
+    color: #333;
+}
+.upload-item{
+    border:2px solid #efeeee;
+    overflow: hidden;
+    font-family: 'Arial';
+    font-size: 14px;
+    padding-left: 13px;
+    width: 733px;
+    padding-bottom: 10px;
+    position: relative;
+    margin-top: 10px;
+}
+.upload-item .upload-title{
+    margin-top:5px;
+    line-height: 21px;
+    overflow: hidden;
+    color: #999;
+}
+.upload-schedule-major{
+    height: 2px;
+    width: 673px;
+    overflow: hidden;
+    font-size: 0;
+    line-height: 0;
+    background-color: #efeeee;
+    float: left;
+    margin-right: 10px;
+    margin-top: 8px;
+}
+.upload-schedule-now{
+    height: 2px;
+    width: 673px;
+    overflow: hidden;
+    font-size: 0;
+    line-height: 0;
+    background-color: #21ba8a;
+}
+.upload-schedule-time{
+    width: 50px;
+    float: left;
+    overflow: hidden;
+    line-height: 16px;
+    font-size: 12px;
+}
+.upload-item .close{
+    background: url(../images/additem.png) -9999px -9999px no-repeat;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 15px;
+    height: 15px;
+    overflow: hidden;
+    background-position: 0 -56px;
+    text-indent: -999px;
+}
+.batch-bar .load-button{
+    background: url(../images/additem.png) 0 0 no-repeat;
+    width: 59px;
+    height: 27px;
+    overflow: hidden;
+    cursor: pointer;
+    display: inline-block;
+    border: none;
+    color: #fff;
+    text-align: center;
+    line-height: 27px;
+}
+.batch-bar .wanted-clear{
+    text-indent: -99999px;
+}
+.batch-line{
+    padding: 10px;
+    border: 2px solid #efeeee;
+    width: 728px;
+}
+.batch-line .image-box{
+    margin-right: 10px;
+}
+hr.line-hr{
+    width:750px;
+    margin-top:10px;
+    height:0px;
+    font-size: 0;
+    line-height: 0;
+    overflow: hidden;
+    border:none;
+    border-top:1px solid #cccccc;
+}
+.tabContainer{
+    z-index: 99999999;
+}
+.tab-letter a{
+    padding: 2px;
+}
+.tab-letter{
+    height:20px;
+    overflow: hidden;
+}

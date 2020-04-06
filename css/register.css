@@ -1,0 +1,317 @@
+/**
+*注册页样式
+*2013.02.16
+*/
+.each, .pic,.email,.password,.name,.reside input,.input button,.sex input{
+	background: url(../images/registerBack.png) -9999px -9999px no-repeat;
+}
+body{
+	padding-bottom: 60px;
+}
+.logo{
+	width: 150px;
+	height: 50px;
+	overflow: hidden;
+	display: block;
+	margin: 16px auto 0;
+}
+.content{
+	width: 778px;
+	height:auto;
+	overflow: hidden;
+	padding-top: 153px;
+	margin:35px auto 0;
+	background: url(../images/register.png) left top no-repeat;
+}
+.con-container{
+	background: url(../images/registerMiddle.png) repeat-y;
+	overflow: hidden;
+	width: 100%;
+}
+.con-bottom{
+	width: 100%;
+	background: url(../images/registerBottom.png) left top no-repeat;
+	height:15px;
+	overflow: hidden;
+}
+.lf{
+	float: left;
+	width: 198px;
+	overflow: hidden;
+	display: inline;
+	margin: 0 78px 0 113px;
+}
+.lf .img{
+	width: 190px;
+	height: 190px;
+	overflow: hidden;
+	border: 4px solid #20b587;
+}
+.each{
+	height: 27px;
+	overflow: hidden;
+	background-position: 68px -223px;
+	margin-top: 12px;
+}
+.pic{
+	float: left;
+	width: 27px;
+	height: 27px;
+	overflow: hidden;
+	margin-left: 14px;
+	display: inline;
+}
+.douban .pic{
+	background-position:-139px -193px;
+}
+.renren .pic{
+	background-position:-230px -193px;
+}
+.weibo .pic{
+	background-position:-109px -193px;
+}
+.qqzone .pic{
+	background-position:-200px -193px;
+}
+.tqq .pic{
+	background-position:-171px -193px;
+}
+.rt{
+	float: left;
+	width: 388px;
+	overflow: hidden;
+}
+.input{
+	width:388px;
+	position: relative;
+	padding-bottom: 10px;
+	color: #999;
+}
+.input input{
+	height: 24px;
+	line-height: 24px;
+	line-height: 26px\0;
+	overflow: hidden;
+	display: block;
+	width: 235px;
+	border: none;
+	font-size: 12px;
+	color: #999;
+	padding: 4px 0 4px 52px;
+}
+.name{
+	background-position: 0 0;
+}
+.focus-hover .name{
+	background-position: 0 -32px;
+}
+.email{
+	background-position: 0 -64px;
+}
+.focus-hover .email{
+	background-position: 0 -96px;
+}
+.password{
+	background-position: 0 -128px;
+}
+.focus-hover .password{
+	background-position: 0 -160px;
+}
+.input label{
+	width: 110px;
+	height:18px;
+	overflow: hidden;
+	position: absolute;
+	left: 52px;
+	top:6px;
+	top:8px\0;
+	*top:8px;
+	color: #aaa;
+}
+.valid-under .label{
+	color: #999;
+}
+.reside{
+	width: 400px;
+}
+.home{
+	width: 125px;
+	float: left;
+	margin-right: 5px;
+	position: relative;
+	height: 25px;
+	*zoom:1;
+	z-index: 9999999;
+	display: block;
+}
+.city-home{
+	width: 83px;
+}
+.reside input{
+	width: 73px;
+	height: 21px;
+	overflow: hidden;
+	background-position: -162px -223px;
+	padding: 2px 0 2px 52px;
+	line-height: 21px;
+}
+.reside .city-home input{
+	background-position: -204px -223px;
+	padding: 2px 4px;
+	width: 78px;
+}
+.reside label{
+	top:3px;
+}
+
+.city{
+	display: none;
+	width: 81px;
+	border-width:0 1px 1px;
+	border-style: solid;
+	border-color:#deddde;
+	height: 90px;
+	z-index: 999999;
+	position: absolute;
+	left: 42px;
+	background-color: white;
+	overflow: hidden;
+	top:25px;
+}
+
+.city-home .city{
+	left:0;
+}
+.city-home label{
+	left:152px;
+}
+.city ul{
+	width: 81px;
+	height: 90px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	display: block;
+}
+.city li{
+	width: 81px;
+	height: 16px;
+	line-height: 16px;
+	overflow: hidden;
+	display: block;
+	color: #000;
+	font-size: 12px;
+	padding:1px 0 1px 2px;
+	cursor: pointer;
+	background-color: #fff;
+}
+.bar{
+	height:27px;
+	overflow: hidden;
+	color: #666666;
+	position: relative;
+}
+.bar a.clause{
+	width:13px;
+	height: 13px;
+	display: inline-block;
+	overflow: hidden;
+	background:url(../images/gou.png) 0 0 no-repeat;
+	position: absolute;
+	left:0 ;
+	top:8px;
+}
+.bar a.checked{
+	background-position:-19px 0; 
+}
+.bar label{
+	width: 100%;
+	padding:0 20px 0 22px;
+	height: 27px;
+	overflow: hidden;
+	line-height: 27px;
+	line-height: 29px\0;
+	display:block;
+	float: left;
+}
+.bar label a{
+	color: #20b788;
+}
+.input button{
+	width: 109px;
+	height: 27px;
+	overflow: hidden;
+	background-position: 0 -193px;
+	border: none;
+	margin-top: 15px;
+	cursor: pointer;
+}
+.disabled{
+	width: 109px;
+	height: 27px;
+	overflow: hidden;
+	background-color: #fff;
+	opacity: 0.5;
+	filter:alpha(opacity =50);
+	position: absolute;
+	left: 0;
+	top:15px;
+}
+.notice{
+	color: #999;
+	margin-left: 99px;
+	width: 542px;
+	overflow: hidden;
+	line-height: 21px;
+	padding-bottom: 25px;
+}
+.ks-clear {
+	clear: both; 
+}
+.tip{
+	height: 16px;
+	padding: 2px 0;
+	line-height: 16px;
+	overflow: hidden;
+	margin-top: 5px;
+}
+.tip em{
+	color: red;
+}
+li.selected{
+	background-color: #dedddd;
+}
+.reside{
+	padding-bottom: 5px;
+	position:relative;
+	 z-index:99;
+}
+.selectMsg{
+	padding-bottom: 10px;
+	overflow: hidden;
+}
+.selectMsg .valid-under{
+	margin-top: 0;
+}
+.sex{
+	width: 125px;
+	height: 25px;
+	margin-top: 5px;
+}
+.sex input{
+	width: 73px;
+	height: 21px;
+	overflow: hidden;
+	background-position: 0 -255px;
+	padding: 2px 0 2px 52px;
+	line-height: 21px;
+}
+.sex .city{
+	height: 36px;
+}
+.sex .city ul{
+	height: 36px;
+}
+.sex .city li{
+	padding-left: 6px;
+	width: 77px;
+}
